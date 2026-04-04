@@ -58,6 +58,13 @@
   color: #686868;
 }
 
+.btn-icon {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
 /* UKURAN TABLET */
 @media (max-width: 1024px) {
   .table-container {
