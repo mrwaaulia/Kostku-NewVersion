@@ -609,17 +609,6 @@ select.form-control {
 
 /* Buttons */
 .button-group { display: flex; gap: 10px; }
-
-.btn {
-  flex: 1;
-  padding: 15px;
-  border-radius: 15px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  font-size: 0.9rem;
-}
-
 .btn-primary { background: #4f75ff; color: white; }
 .btn-full { flex: 1; } /* Digunakan saat hanya ada 1 tombol */
 
