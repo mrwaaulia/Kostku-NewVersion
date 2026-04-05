@@ -649,6 +649,37 @@ select.form-control {
   margin: 0;
 }
 
+.detail-value {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #f8f9fa; /* Warna abu-abu muda sesuai gambar */
+  border-radius: 8px;
+  color: #333;
+  font-weight: 500;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.btn-full {
+  width: 100%;
+  justify-content: center;
+}
+
+/* Memastikan card bisa diklik */
+.card {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* Supaya tombol edit/hapus tidak memicu modal detail */
+.actions {
+  z-index: 10;
+}
+
 .close-btn {
   background: none;
   border: none;
